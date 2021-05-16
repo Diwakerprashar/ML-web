@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Machine Learning</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!--link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body style="background:grey;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center" style="padding: 30px 50px 40px 10px;"> <h3> Predict Your Sample </h3></div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-3 text-center">
+          <label for=""><b>Sepal Length(in cms)</b></label>
+          <div class="col-md-12">
+            <input type="number"class="form-control" name="splength" value="splength">
+          </div>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <label for=""><b>Sepal Width(in cms)</b></label>
+          <div class="col-md-12">
+            <input type="number"class="form-control" name="spwidth" value="spwidth">
+          </div>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <label for=""><b>Petal Length(in cms)</b></label>
+          <div class="col-md-12">
+            <input type="number"class="form-control" name="ptlength" value="ptlength">
+          </div>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <label><b>Petal Width(in cms)</b></label>
+          <div class="col-md-12">
+            <input type="number"class="form-control" name="ptwidth" value="ptwidth">
+          </div>
+        </div>
+      </div>
+
+      <div class="row form-group row text-center">
+        <div class="col-md-12" style="padding: 20px 0 20px 20px;">
+          <button type="submit" class="form-control col-2 btn btn-primary text-center" name="predict">Predict</button>
+
+        </div>
+
+      </div>
+
+      <div class="row" style="padding:20px 0 20px 20px;">
+        <p align="justify" style = "font-family:Times New Roman;font-size:20px;"><b>The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician, eugenicist, and biologist Ronald Fisher in his 1936 paper. The Iris data set contains measurements in centimeters for the variables sepal length and width, and petal length and width, for 150 flowers from 3 species of iris, Iris setosa, versicolor, and virginica.
+        The aim is to classify iris flowers among three species (setosa, versicolor, or virginica) from measurements of sepals and petals' length and width.</b></p>
+      </div>
+
+    </div>
+    <br><br><a href="/page2"> Go back</a>
+  </body>
+</html>

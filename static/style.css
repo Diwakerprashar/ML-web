@@ -1,0 +1,131 @@
+.container{
+  border: 0 solid black;
+}
+.row{
+  border: 0 solid green;
+}
+body{
+  background-image: url('background.jpg');
+  background:#003333;
+  color: green;
+}
+label{
+  color: green;
+  padding-bottom: 10px;
+}
+input{
+  padding-bottom: 30px;
+}
+p{
+  color:lightblue;
+}
+#header{
+  padding: 10px 0 30px 10px;
+}
+#menu{
+  padding: 3px 10px;
+}
+#menu ul{
+  list-style: none;
+}
+#menu ul li{
+  display: inline-block;
+}
+#content{
+  background: lightgrey;
+}
+#footer{
+  background: orange;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+<!--Dividing the page into two parts -->
+div {
+  border: 1px solid black;
+}
+#div2-1,
+#div2-2 {
+  height: 50%;
+  border: 1px solid red !important;
+}
+#div1,#div2{
+  height:50px;
+
+  }
+#div2.col-xs-6
+{
+  padding:0px !important;
+}
+
+
+.leftside,.righrside{
+  height: 50vh;;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px)
+{
+  .leftside, .rightside {
+    height: 100vh;
+  }
+}
+.leftside{
+  background: red;
+}
+.righrside{
+  background: blue;
+}
+
+
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.table-bordered {
+  border: 12px solid lightblue !important;
+}
+
+table caption {
+	padding: .5em 0;
+}
+
+@media screen and (max-width: 767px) {
+  table caption {
+    display: none;
+  }
+}
+
+.p {
+  text-align: center;
+  padding-top: 140px;
+  font-size: 14px;
+}
+table th {
+   text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
